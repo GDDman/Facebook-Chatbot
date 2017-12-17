@@ -2,6 +2,10 @@ import numpy as np
 from random import sample
 
 '''
+Tools for the Seqtoseq model. We did not write or change this. 
+'''
+
+'''
  split data into train (70%), test (15%) and valid(15%)
     return tuple( (trainX, trainY), (testX,testY), (validX,validY) )
 
@@ -61,7 +65,7 @@ def rand_batch_gen(x, y, batch_size):
 
 
 '''
- a generic decode function 
+ a generic decode function
     inputs : sequence, lookup
 
 '''
