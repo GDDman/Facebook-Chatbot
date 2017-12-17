@@ -1,3 +1,5 @@
+Model trained using the framework here: https://github.com/suriyadeepan/practical_seq2seq
+
 The programs require:
 - python 3
 - tensorflow 1.0.0 (the specific version is important)
